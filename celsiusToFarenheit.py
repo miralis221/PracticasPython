@@ -11,7 +11,6 @@ modelo.compile(
     optimizer = tf.keras.optimizers.Adam(0.1),
     loss ='mean_squared_error'
 )
-
 print("Comenzando entrenamiento")
 historial = modelo.fit(celsius,fahrenheit,epochs=1000, verbose = False)
 print("Modelo entrenado!!")
