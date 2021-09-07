@@ -22,7 +22,7 @@ plt.plot(historial.history["loss"])
 plt.show()
 
 print("Hagamos una prediccion!")
-resultado = modelo.predict([50.0])
+resultado = modelo.predict([60.0])
 print("El resultado es "+str(resultado) + " fahrenheit!")
 
 
